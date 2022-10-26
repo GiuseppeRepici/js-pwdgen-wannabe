@@ -4,6 +4,6 @@ const userPColor = prompt("Inserisci il tuo colore preferito!");
 
 const fraseFinale = `${userFullName}${userFullSurname}${userPColor}`;
 
-const Div1Body = document.getElementById("id1");
+const Div1Body = document.getElementById("passwordGenerator");
 
 Div1Body.innerHTML = fraseFinale + 21;
